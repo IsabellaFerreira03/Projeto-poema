@@ -32,7 +32,7 @@
  header {
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: black 
+    background-color: rgb(36, 14, 14) 
  }
 
  header > h1 {
@@ -62,7 +62,7 @@
 
  section.normal {
    background-color: rgb(255, 236, 228);
-   color: black;
+   color: rgb(26, 3, 3) 
  }
 
  section.imagem {
@@ -74,7 +74,7 @@
 
  section.imagem > p {
    width: 400px;
-   background-color: rgba(0, 0, 0, 0.523);
+   background-color: rgba(29, 6, 6, 0.523);
    text-shadow: 1px 2px 0px black;
  }
 
@@ -102,8 +102,26 @@
    background-size: cover;
  }
 
+ section#img05 {
+ background-image: url('../imagens/img6.jpg');
+  background-position: right center;
+  background-size: cover;
+ }
+
+ section#img06 {
+  background-image: url('../imagens/img5.jpg');
+  background-position: right center;
+  background-size: cover;
+ }
+
+ section#img07 {
+  background-image: url('../imagens/img7.jpg');
+  background-position: right center;
+  background-size: cover;
+ }
+
  footer {
-   background-color: black;
+   background-color: rgb(26, 3, 3);
    color: white;
    text-align: center;
    padding: 10px;
